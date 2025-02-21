@@ -1,0 +1,15 @@
+{
+    "private": true,
+    "name": "@types/facebook-nodejs-business-sdk",
+    "version": "20.0.9999",
+    "projects": [
+        "https://github.com/facebook/facebook-nodejs-business-sdk"
+    ],
+    "owners": [
+        {
+            "name": "Aisel Sherfedinova",
+            "githubUsername": "aisel01"
+        }
+    ],
+    "minimumTypeScriptVersion": "5.1"
+}
