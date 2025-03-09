@@ -293,7 +293,7 @@ export default class AdAccount extends AbstractCrudObject {
     getDsaRecommendations(fields: string[], params?: Record<string, any>, fetchFirstPage?: boolean): Cursor | Promise<Cursor>;
     getGeneratePreviews(fields: string[], params?: Record<string, any>, fetchFirstPage?: boolean): Cursor | Promise<Cursor>;
     getImpactingAdStudies(fields: string[], params?: Record<string, any>, fetchFirstPage?: boolean): Cursor | Promise<Cursor>;
-    getInsights(fields: string[], params?: Record<string, any>, fetchFirstPage?: boolean): Cursor<AdsInsights> | Promise<Cursor<AdsInsights>>;
+    getInsights(fields: string[], params?: Record<string, any>, fetchFirstPage?: boolean): Cursor<AdsInsights[]> | Promise<Cursor<AdsInsights[]>>;
     getInsightsAsync(fields: string[], params?: Record<string, any>, pathOverride?: string | null): Promise<AdReportRun>;
     getInstagramAccounts(fields: string[], params?: Record<string, any>, fetchFirstPage?: boolean): Cursor | Promise<Cursor>;
     getIosFourteenCampaignLimits(fields: string[], params?: Record<string, any>, fetchFirstPage?: boolean): Cursor | Promise<Cursor>;
