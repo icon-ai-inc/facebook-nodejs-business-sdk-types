@@ -457,6 +457,7 @@ export { default as CreatorAssetCreative } from "./src/objects/creator-asset-cre
 export { default as CreditCard } from "./src/objects/credit-card";
 export { default as CreditPartitionActionOptions } from "./src/objects/credit-partition-action-options";
 export { default as Currency } from "./src/objects/currency";
+export { default as Cursor } from "./src/cursor";
 export { default as CurrencyAmount } from "./src/objects/currency-amount";
 export { default as CustomAudience } from "./src/objects/custom-audience";
 export { default as CustomAudienceAdAccount } from "./src/objects/custom-audience-ad-account";
